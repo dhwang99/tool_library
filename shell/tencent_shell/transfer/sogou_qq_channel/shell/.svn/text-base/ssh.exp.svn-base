@@ -1,0 +1,21 @@
+#!/usr/bin/expect
+
+set usr root
+
+set user [lindex $argv 0]
+set ipaddr [lindex $argv 1]
+set passwd [lindex $argv 2]
+set cmdstr [lindex $argv 3]
+
+spawn  ssh -q -p36000 $user@$ipaddr
+#spawn ssh $user@$ipaddr#36000
+
+set timeout 120
+while (1) {
+expect {
+	"password:" {send "$passwd\n"; break; }
+	"yes/no" {send "yes\n";}
+}
+}
+send "$cmdstr\n"
+interact

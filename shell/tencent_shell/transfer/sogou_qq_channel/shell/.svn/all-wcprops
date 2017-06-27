@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/soso/!svn/ver/7938/wenwen_search/wenwen/wenwen_tools/tencent_shell/transfer/sogou_qq_channel/shell
+END
+lcmd
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/soso/!svn/ver/7938/wenwen_search/wenwen/wenwen_tools/tencent_shell/transfer/sogou_qq_channel/shell/lcmd
+END
+scp.exp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/soso/!svn/ver/7938/wenwen_search/wenwen/wenwen_tools/tencent_shell/transfer/sogou_qq_channel/shell/scp.exp
+END
+lscp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/soso/!svn/ver/7938/wenwen_search/wenwen/wenwen_tools/tencent_shell/transfer/sogou_qq_channel/shell/lscp
+END
+ldown
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/soso/!svn/ver/7938/wenwen_search/wenwen/wenwen_tools/tencent_shell/transfer/sogou_qq_channel/shell/ldown
+END
+go
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/soso/!svn/ver/7938/wenwen_search/wenwen/wenwen_tools/tencent_shell/transfer/sogou_qq_channel/shell/go
+END
+ssh.exp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/soso/!svn/ver/7938/wenwen_search/wenwen/wenwen_tools/tencent_shell/transfer/sogou_qq_channel/shell/ssh.exp
+END
+gen_dsthost.sh
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/soso/!svn/ver/7938/wenwen_search/wenwen/wenwen_tools/tencent_shell/transfer/sogou_qq_channel/shell/gen_dsthost.sh
+END
+cmd.exp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/soso/!svn/ver/7938/wenwen_search/wenwen/wenwen_tools/tencent_shell/transfer/sogou_qq_channel/shell/cmd.exp
+END
+ldown.exp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/soso/!svn/ver/7938/wenwen_search/wenwen/wenwen_tools/tencent_shell/transfer/sogou_qq_channel/shell/ldown.exp
+END

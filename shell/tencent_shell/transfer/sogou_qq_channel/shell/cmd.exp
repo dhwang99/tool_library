@@ -1,0 +1,21 @@
+#!/usr/bin/expect
+
+set usr root
+
+set user [lindex $argv 0]
+set ipaddr [lindex $argv 1]
+set passwd [lindex $argv 2]
+set cmdstr [lindex $argv 3]
+
+spawn ssh -q -p36000 $user@$ipaddr "$cmdstr"
+#spawn ssh $user@$ipaddr#36000
+
+set timeout 1200
+while (1) {
+expect {
+	"password:" {send "$passwd\n"; break; }
+	"yes/no" {send "yes\n";}
+}
+}
+
+expect timeout {puts "\nCHECKWARNING: $ipaddr $command\n"}
