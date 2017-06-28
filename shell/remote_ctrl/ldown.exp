@@ -1,0 +1,15 @@
+#!/usr/bin/expect
+
+set usr root
+
+set user [lindex $argv 0]
+set ipaddr [lindex $argv 1]
+set passwd [lindex $argv 2]
+set file [lindex $argv 3]
+set path [lindex $argv 4]
+
+spawn strace -okk scp -P36000 $user@$ipaddr:$file $path
+
+set timeout 120
+expect "password:" {send "$passwd\n"}
+expect timeout {puts "\nCHECKWARNING: $ipaddr $command\n"}
