@@ -1,6 +1,0 @@
-Author: 王盛颐 (carson)
-   
-3 给sogou推送数据 
-~~~~~~~~~~~~~~~~~~~~~~~
-  运行在 soso@10.130.68.165:/data/soso/push_sogou  两个目
-  录下，将问问这边问答数据以增量的方式传输给sogou
