@@ -6,7 +6,7 @@ echo "$pass" | passwd --stdin $user
 
 let seed=($RANDOM%2+1)
 
-users='lyl ffy zhoumi wch chr loki cyl llm dlj'
+users='lyl ffy zhoumi wch chr loki cyl llm dlj wdh'
 
 for user in $users
 do
@@ -17,5 +17,7 @@ do
 	echo "$pass" | passwd --stdin $user
 
 	let seed=seed%2+1
+
+	ln -s $homedir /home/$user
 done
 
