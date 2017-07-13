@@ -2,6 +2,8 @@
 
 >  包括shell，python，分词，上传文件，自动登陆，远程同步等等小工具集, 也有python爬虫、抽取、同步数据等小程序
 
+>  也包括一些hadoop,sparksql,查看gpu等相关的程序
+
 #### 1. shell
 >   1) remote_ctrl 
 
@@ -71,5 +73,11 @@
 >      算simhash的小程序
 
 
-#### 3.  
->    
+#### 3. Hadoop相关的脚本 
+>   用hadoop下的hdfs存储、mapreduce进行计算。会存一些例程序 
+
+#### 4. sparksql相关的脚本 
+>   用spark sql做数据统计。  
+
+#### 5. gpu相关的脚本 
+>   17年4月开始使用gpu, 工具不多，仅为留档用 
