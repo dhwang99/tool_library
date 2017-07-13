@@ -4,6 +4,7 @@ import pdb
 host='127.0.0.1'  
 host='10.129.232.39'
 host='10.134.113.75'
+host='10.134.75.38'
 port=50000 
 BUFFER=4096  
 sock=socket.socket(socket.AF_INET,socket.SOCK_STREAM)  
